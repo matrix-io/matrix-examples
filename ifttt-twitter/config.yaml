@@ -1,0 +1,11 @@
+# do not touch this line
+configVersion: 2
+
+description: Adds a light for each new follower
+keywords: 'twitter, leds, follows'
+name: ifttt-twitter
+shortName: ifttt-twitter
+displayName: Ifttt Twitter
+
+events:
+  - add-follow

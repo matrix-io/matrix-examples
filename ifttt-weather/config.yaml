@@ -1,0 +1,14 @@
+# do not touch this line
+configVersion: 2
+
+description: Weather displayer for IFTTT
+keywords: 'ifttt, rain, snow, cloudy, weather'
+name: ifttt-weather
+shortName: ifttt-weather
+displayName: Ifttt Weather
+
+events:
+  - start-rain
+  - start-cloudy
+  - start-clear
+  - start-snow

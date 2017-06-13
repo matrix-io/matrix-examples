@@ -1,0 +1,8 @@
+# do not touch this line
+configVersion: 2
+
+description: IFTTT enabled indicator light for when someone is headed home
+keywords: 'ifttt, tesla'
+name: ifttt-tesla
+shortName: ifttt-tesla
+displayName: Ifttt Tesla

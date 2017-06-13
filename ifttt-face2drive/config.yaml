@@ -1,0 +1,16 @@
+# do not touch this line
+configVersion: 2
+
+description: Send triggers to IFTTT to keep track of when we see a face
+keywords: 'ifttt, drive, face'
+name: ifttt-face2drive
+shortName: ifttt-face2drive
+displayName: Ifttt Face 2 Drive
+
+events:
+  - 'add-face'
+
+services:
+  faceSvc:
+    engine: detection
+    type: face

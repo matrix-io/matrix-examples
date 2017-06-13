@@ -1,0 +1,14 @@
+# do not touch this line
+configVersion: 2
+
+description: Ring a gong when Stripe payment is made
+keywords: 'gong, payment, stripe, servo'
+name: ifttt-gong
+shortName: ifttt-gong
+displayName: Ifttt Gong
+
+events: 
+  - ring-bell
+
+integrations:
+  - gpio

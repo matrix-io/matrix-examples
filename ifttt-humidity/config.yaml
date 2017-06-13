@@ -1,0 +1,14 @@
+# do not touch this line
+configVersion: 2
+
+description: Post a slack notification when the humidity needs to be adjusted
+keywords: 'humidity, weather'
+name: ifttt-humidity
+shortName: ifttt-humidity
+displayName: Ifttt Humidity
+
+events:
+  - high-humidity
+
+sensors:
+  - humidity
