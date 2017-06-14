@@ -1,0 +1,11 @@
+{
+  "name": "sensortest",
+  "version": "1.0.7",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cpu-stats": "^1.0.0"
+  }
+}

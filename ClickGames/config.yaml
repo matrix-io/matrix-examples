@@ -1,0 +1,75 @@
+# do not touch this line
+configVersion: 2
+
+name: ClickGames
+description: Games for your mouse
+keywords: 'everloop,mouse,click,reflexes'
+dataTypes:
+  clickGames:
+    lives: int
+    failedHitsCounter: int
+    perfectHitsCounter: int
+    okHitsCounter: int
+    status: string
+    score: int
+screens:
+- - mouseActions
+- - status
+- - score
+- - information
+- - perfectHitsCounter
+  - okHitsCounter
+
+imageUrls: 
+  - https://storage.googleapis.com/admobilize-assets/matrix-appstore-images-tmp/app-tn/click-games-1.jpg
+  - https://storage.googleapis.com/admobilize-assets/matrix-appstore-images-tmp/app-tn/click-games-2.jpg
+  - https://storage.googleapis.com/admobilize-assets/matrix-appstore-images-tmp/app-tn/click-games-3.jpg
+
+galleryUrl: https://storage.googleapis.com/admobilize-assets/matrix-appstore-images-tmp/app-tn/click-games-g.png
+
+widgets:
+  mouseActions:
+    control: button
+    keys:
+    - value
+    map:
+    - event: leftClick
+      value: Action
+    - event: rightClick
+      value: Cancel
+    name: mouseActions
+    type: mouseActions
+  information:
+    display: digit
+    keys:
+    - lives
+    format: count
+    label: Lives
+    type: clickGames
+  perfectHitsCounter:
+    display: digit
+    keys:
+    - perfectHitsCounter
+    format: count
+    label: Perfect
+    type: clickGames
+  okHitsCounter:
+    display: digit
+    keys:
+    - okHitsCounter
+    format: count
+    label: Good
+    type: clickGames
+  status:
+    display: label
+    keys:
+    - status
+    label: Status
+    type: clickGames
+  score:
+    display: digit
+    keys:
+    - score
+    format: count
+    label: Score
+    type: clickGames
