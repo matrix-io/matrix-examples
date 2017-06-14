@@ -6,9 +6,12 @@ var total = 0;
 matrix.on('add-follow', function() {
   total++;
 
-  var 1 ang = Math.round(360 / 35);
-  matrix.render({
-    arc: total * 1 ang,
-    color: 'blue'
+  var ang = Math.round(360 / 35);
+  matrix.led({
+    arc: total * ang,
+    color: 'blue',
+    start: 0
   }).render();
+
+  total = ( total >= 35) ? 0 : total;
 });

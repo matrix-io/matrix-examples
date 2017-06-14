@@ -26,7 +26,7 @@ matrix.on('start-cloudy', function() {
       start: 0 + r2--,
       color: 'yellow'
     }]).render();
-  }, 1000);
+  }, 100);
 })
 matrix.on('start-snow', function() {
   var a = 0;
@@ -50,6 +50,12 @@ matrix.on('start-rain', function() {
     }, {
       angle: a + 10,
       color: 'blue'
+    },{
+      angle: -a,
+      color: 'blue'
+    }, {
+      angle: -a - 10,
+      color: 'blue'
     }]).render();
-  }, 100)
+  }, 20)
 })
