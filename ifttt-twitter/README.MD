@@ -1,9 +1,3 @@
-This is your app folder. Please only change app.js and config.yaml.
+Adds a light to the circle every time `add-follow` is sent, in this case, emitted from IFTTT.
 
-Do not modify index.js.
-
-You may add packages via `npm`, they will be installed when the application is deployed to a device. 
-
-## Developer Documentation
-
-http://github.io/matrix-io/matrix-documentation/
+See https://ifttt.com/matrix_io for matching Triggers, Actions and Applets.

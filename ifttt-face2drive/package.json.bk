@@ -1,6 +1,6 @@
 {
-  "name": "ifttt-weather",
-  "version": "1.0.1",
+  "name": "ifttt-face2drive",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
