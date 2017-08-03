@@ -1,0 +1,10 @@
+# do not touch this line
+configVersion: 2
+
+description: Leveler app using gyroscope
+keywords: ''
+name: level
+displayName: Level
+
+sensors:
+  - gyroscope
